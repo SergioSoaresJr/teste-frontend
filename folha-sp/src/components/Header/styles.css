@@ -1,0 +1,206 @@
+/* Displey tablet */
+@media screen and (max-width: 739px) {
+    .main-header {
+        background-color: #3299dc;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+    .icon-menu, .logo-menu {
+        padding: 0 30px;
+    }
+
+    .icon-menu {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .logo-menu {
+        position: absolute;
+        width: 160px;
+        top: 26.5%;
+        left: 20%;
+    }
+
+    .text-menu, .social-menu {
+        display: none;
+    }
+}
+
+/* Displey tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+
+    .main-header {
+        height: 90px;
+    }
+    
+    .logo-menu {
+        padding: 0;
+        top: 27%;
+    }
+
+    .text-menu, .social-menu{
+        display: inline-block;
+    }
+
+    .text-menu {
+        position: relative;
+        left: 50%;
+        top: 60%;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .social-menu {
+        position: absolute;
+        width: 10%;
+        left: 85%;
+        top: 50%;
+        transform: translateY(-50%);
+        list-style: none;
+    }
+
+    .social-menu li {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        padding: 5px;
+        margin-right:  0.3rem;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .social-face {
+        text-decoration: none;
+        color: #324EA2;
+    }
+
+    .social-twitter {
+        text-decoration: none;
+        color: #46B4E3;
+    }
+
+}
+/* Displey desktop HD */
+@media screen and (min-width: 1024px) and (max-width: 1679px) {
+
+    .main-header {
+        display: block;
+        position: absolute;
+    }
+    
+    .logo-menu {
+        top: 27%;
+        left: 30%;
+    }
+    
+    .text-menu, .social-menu {
+        display: inline-block;
+    }
+
+    .text-menu {
+        position: absolute;
+        left: 49%;
+        top: 60%;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+    .social-menu {
+        display: table;
+        position: absolute;
+        width: 160px;
+        left: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+        list-style: none;
+        border-spacing: 10px;
+    }
+
+    .social-menu li {
+        display: table-cell;
+        vertical-align: middle;
+        height: 20px;
+        width: 60px;
+        padding: 5px;
+        margin: 0 .5rem;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .40);
+        background-color: #fff;
+    }
+
+    .social-face {
+        text-decoration: none;
+        width: 50px;
+        color: #324EA2;
+    }
+
+    .social-twitter {
+        text-decoration: none;
+        color: #46B4E3;
+    }
+
+    .social-face::after {
+        font-size: 0.65rem;
+        font-family: Helvetica;
+        content: 'CURTIR';
+    }
+
+    .social-twitter::after {
+        font-size: 0.65rem;
+        font-family: Helvetica;
+        content: 'SEGUIR';
+    }
+
+}
+
+/* adpatação para monitores ULTRA WIDE */
+@media screen and (mini-width: 1680px) and (max-width: 1999px) {
+    .main-header{
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+/* adpatação para monitores ULTRA WIDE */
+@media screen and (mini-width: 2000px) {
+    .main-header{
+        width: 50%;
+        margin: 0 25%;
+    }
+}
+
+/* Configurações Gerais */
+.main-header {
+    width: 100%;
+    height: 90px;
+    background-color: #3299dc;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.icon-menu, .logo-menu {
+    padding: 0 30px;
+}
+
+.icon-menu {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+
+}
+
+.logo-menu {
+    position: absolute;
+    width: 160px;
+    top: 26.5%;
+    left: 20%;
+}
