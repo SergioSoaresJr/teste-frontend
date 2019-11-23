@@ -1,4 +1,4 @@
-/* Displey tablet */
+/* Displey celular */
 @media screen and (max-width: 739px) {
     .main-header {
         background-color: #3299dc;
@@ -9,14 +9,6 @@
 
     .icon-menu, .logo-menu {
         padding: 0 30px;
-    }
-
-    .icon-menu {
-        position: absolute;
-        width: 32px;
-        height: 32px;
-        top: 50%;
-        transform: translateY(-50%);
     }
 
     .logo-menu {
@@ -37,7 +29,7 @@
     .main-header {
         height: 90px;
     }
-    
+
     .logo-menu {
         padding: 0;
         top: 27%;
@@ -93,7 +85,7 @@
         display: block;
         position: absolute;
     }
-    
+
     .logo-menu {
         top: 27%;
         left: 30%;
@@ -160,20 +152,77 @@
 
 }
 
-/* adpatação para monitores ULTRA WIDE */
-@media screen and (mini-width: 1680px) and (max-width: 1999px) {
-    .main-header{
-        width: 70%;
-        margin: 0 15%;
+/* adpatação para monitores Full HD */
+@media screen and (min-width: 1680px) {
+    .main-header {
+        height: 90px;
     }
-}
+    
+    .logo-menu {
+        position: absolute;
+        top: 27%;
+        left: 40%;
+    }
+    
+    .text-menu, .social-menu {
+        display: inline-block;
+    }
 
-/* adpatação para monitores ULTRA WIDE */
-@media screen and (mini-width: 2000px) {
-    .main-header{
-        width: 50%;
-        margin: 0 25%;
+    .text-menu {
+        position: absolute;
+        left: 49%;
+        top: 50%;
+        color: #fff;
+        font-size: 1.8rem;
     }
+
+    .social-menu {
+        display: table;
+        position: absolute;
+        width: 160px;
+        left: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+        list-style: none;
+        border-spacing: 10px;
+    }
+
+    .social-menu li {
+        display: table-cell;
+        vertical-align: middle;
+        height: 30px;
+        width: 200px;
+        padding: 5px;
+        margin: 0 .5rem;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .40);
+        background-color: #fff;
+    }
+
+    .social-face {
+        text-decoration: none;
+        width: 50px;
+        color: #324EA2;
+    }
+
+    .social-twitter {
+        text-decoration: none;
+        color: #46B4E3;
+    }
+
+    .social-face::after {
+        font-size: 1rem;
+        font-family: Helvetica;
+        content: 'CURTIR';
+    }
+
+    .social-twitter::after {
+        font-size: 1rem;
+        font-family: Helvetica;
+        content: 'SEGUIR';
+    }
+
 }
 
 /* Configurações Gerais */
@@ -191,11 +240,11 @@
 }
 
 .icon-menu {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 50%;
-
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        top: 50%;
+        transform: translateY(-50%);
 }
 
 .logo-menu {

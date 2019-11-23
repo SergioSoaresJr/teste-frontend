@@ -1,12 +1,46 @@
 * {
-    padding: 0;
     margin: 0;
-    outline: 0;
-    box-sizing: 0;
+    font-family: Helvetica;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     background: #fff;
-    
+}
+
+ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Display celular*/
+@media screen and (max-width: 740px){
+    main {
+        padding: 120px 10px 10px 10px;
+    }
+}
+
+/* Display Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    main {
+        padding: 120px 1rem;
+    }
+}
+
+/* Display HD */
+@media screen and (min-width: 1020px) and (max-width: 1679px) {
+    main {
+        display: block;
+        padding: 120px 1rem;
+        margin: auto 3%;
+    }
+}
+
+
+/* Display FULL HD */
+@media screen and (min-width: 1679px) {
+    main {
+        display: block;
+        padding: 120px 0px 0px 40px;
+        margin: 0px 0px 0px 40px;
+    }
 }
