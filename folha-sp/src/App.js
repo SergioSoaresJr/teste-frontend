@@ -5,6 +5,7 @@ import Top_Noticias from './components/TopNoticias';
 import Noticia_Recom from './components/DesNotcicias';
 import Anuncio from './components/Ads_Desktop'
 import Fast_Noticias from './components/Fast_Noticias';
+import Arts from './components/Arts';
 
 import './styles.css';
 
@@ -19,6 +20,7 @@ function App(){
           <Anuncio />
           <Noticia_Recom />
           <Fast_Noticias />
+          <Arts />
         </main>
 
       </body>

@@ -1,0 +1,125 @@
+/* Display celular */
+@media screen and (max-width: 739px) {
+    .arts-title {
+        font-size: 1.2rem;
+    }
+
+    .art-img {
+        height: 200px;
+    }
+
+    .art-artist {
+        font-size: 0.8rem;
+    }
+}
+
+/* Display tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .arts-01 {
+        margin-top: -500px;
+        float: right;
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        margin-right: -4px;
+    }
+
+    .arts-02 {
+        margin-top: -20px;
+        display: inline-block;
+        width: 45%;
+    }
+
+    .arts {
+        display: inline;
+        vertical-align: middle;
+        float: right;
+    }
+
+    .art-img {
+        height: 160px;
+    }
+
+    .art-artist {
+        font-size: 0.8rem;
+    }
+}
+
+/* Display desktop HD */
+@media screen and (min-width: 1024px) and (max-width: 1679px) {
+    .arts {
+        display: inline-block;
+        float: right;
+        width: 70%;
+    }
+    
+    .arts-01 {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        margin:0 -4px 0 2rem;
+    }
+
+    .arts-02 {
+        display: inline-block;
+        width: 45%;
+        margin: 0;
+    }
+
+    .art {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .art-img {
+        height: 160px;
+    }
+
+    .art-artist {
+        font-size: 0.8rem;
+    }
+}
+
+/* adpatação para monitores Full HD */
+@media screen and (min-width: 1680px) {
+    .art-img {
+        height: 160px;
+    }
+
+    .art-artist {
+        font-size: 0.8rem;
+    }
+}
+
+/* Configurações Gerais */
+.arts-title {
+    color: #E74C3C;
+    margin: 3rem 0 0 0 ;
+}
+
+.art-img {
+    width: 50%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.art-content {
+    position: relative;
+    left: 12px;
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px -4px 0 0;
+}
+
+.art-artist {
+    color: #E74C3C;
+    text-transform: uppercase;
+}
+
+.art-description {
+    color: #2C3E50;
+    font-size: 1rem;
+    font-weight: normal;
+}

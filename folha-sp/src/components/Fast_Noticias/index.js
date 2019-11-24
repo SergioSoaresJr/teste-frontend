@@ -1,8 +1,5 @@
 import React from 'react';
 
-import Icon from '../../images/desktop/menu-icon.png';
-import Logo from '../../images/desktop/logo.png';
-
 import './styles.css';
 
 function Fast_Noticias() {
