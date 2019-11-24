@@ -9,11 +9,12 @@ import './styles.css';
 
 function Noticia_Recom() {
     return (
+
         <div className="noticias-recomendadas"> 
 
             <h2 className="noticia-title">Divoltis porris</h2>
-           
-           <div className="recomendadas">
+            
+            <div className="recomendadas">
                 <figure>
                     <img className="recomendadas-img" src={Consetis} alt="Mussum"/>
                     <figcaption className="recomendadas-caption">consetis</figcaption>
@@ -44,8 +45,9 @@ function Noticia_Recom() {
                     <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis</p>
                 </figure>
             </div>
-            
+                
         </div>
+    
     );
 } 
 

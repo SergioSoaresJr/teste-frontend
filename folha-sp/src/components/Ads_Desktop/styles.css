@@ -1,0 +1,70 @@
+/* Display celular */
+@media screen and (max-width: 739px) {
+    .ads-desktop {
+        display: none;
+    }
+
+
+}
+
+/* Display tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .ads-desktop {
+        display: none;
+    }
+}
+
+/* Displey desktop HD */
+@media screen and (min-width: 1024px) and (max-width: 1679px) {
+    .ads-mobile {
+        display: none;
+    }
+
+    .ads-desktop-title {
+        display: block;
+        text-align: right;
+        color: #999;
+        font-size: 0.8rem;
+    }
+
+    .ads-desktop {
+        display: inline-block;
+        float: right;
+        max-width: 300px;
+        margin: 3rem 4rem 0 0;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .ads-desktop img {
+        width: 280px;
+    }
+}
+
+/* adpatação para monitores Full HD */
+@media screen and (min-width: 1680px) {
+    .ads-mobile {
+        display: none;
+    }
+
+    .ads-desktop-title {
+        display: block;
+        text-align: right;
+        color: #999;
+        font-size: 1.5rem;
+    }
+
+    .ads-desktop {
+        display: inline-block;
+        float: right;
+        max-width: 500px;
+        margin: 3rem 6% 0 0;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .ads-desktop img {
+        width: 380px;
+    }
+}
+
