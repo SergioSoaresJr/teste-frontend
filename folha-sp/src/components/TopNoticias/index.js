@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Highlight01 from '../../images/desktop/highlight-01.png'
-import Highlight02 from '../../images/desktop/highlight-02.png'
-import Highlight03 from '../../images/desktop/highlight-03.png'
+import Highlight01 from '../../images/desktop/highlight-01.png';
+import Highlight02 from '../../images/desktop/highlight-02.png';
+import Highlight03 from '../../images/desktop/highlight-03.png';
 
 import './styles.css';
 
-function Top() {
+function Top_Noticias() {
     return (
         <div className="top-naticias"> 
 
@@ -30,4 +30,4 @@ function Top() {
     );
 } 
 
-export default Top;
+export default Top_Noticias;

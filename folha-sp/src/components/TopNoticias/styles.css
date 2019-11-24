@@ -8,6 +8,7 @@
 
     .highlights-img {
         width: 100%;
+        
     }
 
     .highlights-caption {
@@ -81,7 +82,7 @@
     /* figure higlights */
     .highlights {
         display: inline-block;
-        width: calc((100% / 3) - 2%);
+        width: calc((100% / 3) - 1.28%);
         vertical-align: bottom;
         margin-right: 12px;
     }

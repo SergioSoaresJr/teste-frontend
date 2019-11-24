@@ -22,7 +22,7 @@ ul, figure {
 /* Display Tablet */
 @media screen and (min-width: 740px) and (max-width: 1023px) {
     main {
-        padding: 120px 1rem;
+        padding: 150px 3rem;
     }
 }
 
@@ -30,7 +30,7 @@ ul, figure {
 @media screen and (min-width: 1020px) and (max-width: 1679px) {
     main {
         display: block;
-        padding: 120px 1rem;
+        padding: 120px 0rem;
         margin: auto 3%;
     }
 }

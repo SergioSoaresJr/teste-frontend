@@ -42,7 +42,7 @@
     .text-menu {
         position: relative;
         left: 50%;
-        top: 60%;
+        top: 45%;
         color: white;
         font-size: 1.3rem;
     }
@@ -85,11 +85,6 @@
         display: block;
         position: absolute;
     }
-
-    .logo-menu {
-        top: 27%;
-        left: 30%;
-    }
     
     .text-menu, .social-menu {
         display: inline-block;
@@ -97,8 +92,8 @@
 
     .text-menu {
         position: absolute;
-        left: 49%;
-        top: 60%;
+        left: 45%;
+        top: 45%;
         color: #fff;
         font-size: 1.3rem;
     }
@@ -171,9 +166,9 @@
     .text-menu {
         position: absolute;
         left: 49%;
-        top: 50%;
+        top: 30%;
         color: #fff;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .social-menu {
@@ -251,5 +246,5 @@
     position: absolute;
     width: 160px;
     top: 26.5%;
-    left: 20%;
+    left: 23%;
 }

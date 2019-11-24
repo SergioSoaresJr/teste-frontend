@@ -1,8 +1,10 @@
 import React from 'react';
 
-import './styles.css'
 import Header from './components/Header';
-import Top from './components/TopNoticias';
+import Top_Noticias from './components/TopNoticias';
+import Noticia_Recom from './components/DesNotcicias';
+
+import './styles.css';
 
 function App(){
   return(
@@ -11,7 +13,8 @@ function App(){
         <Header />
 
         <main>
-          <Top />
+          <Top_Noticias/>
+          <Noticia_Recom />
         </main>
 
       </body>
