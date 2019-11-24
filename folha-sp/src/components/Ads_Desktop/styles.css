@@ -16,9 +16,6 @@
 
 /* Displey desktop HD */
 @media screen and (min-width: 1024px) and (max-width: 1679px) {
-    .ads-mobile {
-        display: none;
-    }
 
     .ads-desktop-title {
         display: block;
