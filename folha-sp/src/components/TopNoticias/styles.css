@@ -1,4 +1,4 @@
-/* Displey celular */
+/* Display celular */
 @media screen and (max-width: 739px) {
 
     .highlights {
@@ -27,7 +27,7 @@
     } 
 }
 
-/* Displey tablet */
+/* Display tablet */
 @media screen and (min-width: 740px) and (max-width: 1023px){
     /* highlights */
     .highlights {

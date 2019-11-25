@@ -1,4 +1,4 @@
-/* Displey celular */
+/* Display celular */
 @media screen and (max-width: 739px) {
     .recomendadas {
         border-bottom: 1px solid rgba(0, 0, 0, .2);
@@ -30,8 +30,8 @@
     .recomendadas {
         border-bottom: 1px solid rgba(0, 0, 0, .2);
         display: inline-block;
-        width: calc((100% / 2) - 2.35%);
-        margin-top: 10px;
+        width: calc((100% / 2) - 2.5%);
+        margin: 1rem 4px 0px 0px; 
     }
 
     .recomendadas:nth-child(odd) {
@@ -99,7 +99,7 @@
 @media screen and (min-width: 1680px) {
     .noticias-recomendadas {
         display: inline-block;
-        width: 70%;
+        width: 60%;
     }
     
     .recomendadas {

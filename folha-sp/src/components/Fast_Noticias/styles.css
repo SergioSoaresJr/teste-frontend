@@ -87,10 +87,6 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.noticias-list li:last-child {
-    border: none;
-}
-
 .noticias-list li a {
     color: #2C3E50;
 }

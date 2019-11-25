@@ -6,10 +6,15 @@
 
     .art-img {
         height: 200px;
+        width: 50%;
     }
 
     .art-artist {
         font-size: 0.8rem;
+    }
+
+    .art-content{
+        margin: 10px 0;
     }
 }
 
@@ -37,12 +42,18 @@
     }
 
     .art-img {
-        height: 160px;
+        height: 200px;
+        width: 50%;
     }
 
     .art-artist {
         font-size: 0.8rem;
     }
+
+    .art-content{
+        margin: 10px 0;
+    }
+    
 }
 
 /* Display desktop HD */
@@ -55,7 +66,7 @@
     
     .arts-01 {
         display: inline-block;
-        width: 45%;
+        width: 43%;
         vertical-align: top;
         margin:0 -4px 0 2rem;
     }
@@ -72,23 +83,61 @@
     }
 
     .art-img {
-        height: 160px;
+        height: 180px;
+        width: 50%;
     }
 
     .art-artist {
         font-size: 0.8rem;
+    }
+
+    .art-content{
+        margin: 5px 8px 0 0;
     }
 }
 
 /* adpatação para monitores Full HD */
 @media screen and (min-width: 1680px) {
+    .arts {
+        display: inline-block;
+        float: right;
+        width: 60%;
+    }
+    
+    .arts-01 {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+
+    .arts-02 {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+
+    .art {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
     .art-img {
-        height: 160px;
+        width: 40%;
+        height: 180px;
     }
 
     .art-artist {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
+
+    .art-description {
+        padding: 1rem 1rem;
+    }
+
+    .art-content{
+        margin: 5px 4rem 0 0;
+    }
+
 }
 
 /* Configurações Gerais */
@@ -98,7 +147,6 @@
 }
 
 .art-img {
-    width: 50%;
     display: inline-block;
     margin-top: 5px;
 }
@@ -110,7 +158,6 @@
     height: 100%;
     display: inline-block;
     vertical-align: top;
-    margin: 5px -4px 0 0;
 }
 
 .art-artist {

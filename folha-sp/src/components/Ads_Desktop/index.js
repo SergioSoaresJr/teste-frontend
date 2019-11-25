@@ -6,7 +6,7 @@ import './styles.css';
 
 function Anuncio() {
     return (
-        <div className="ads"> 
+        <div className="anuncio-desk"> 
           
            <div className="ads-desktop">
                 <small className="ads-desktop-title">Publicidade</small>

@@ -1,0 +1,46 @@
+/* Display celular */
+@media screen and (max-width: 739px) {
+    .anuncio-mobile {
+        width: 100%;
+        text-align: center;
+        margin: 5rem auto 5rem auto;
+    }
+}
+
+/* Displey tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {   
+    .anuncio-mobile {
+        float: right;
+        display: inline-block;
+        margin: 5rem 2rem 5rem auto;
+        margin-top: -350px;
+    }
+}
+
+/* Displey desktop HD */
+@media screen and (min-width: 1024px) and (max-width: 1679px) {
+    .anuncio-mobile {
+        display: none;
+    }
+}
+
+/* adpatação para monitores Full HD */
+@media screen and (min-width: 1680px) {
+    .anuncio-mobile {
+        display: none;
+    }
+}
+
+/* Configurações Gerais */    
+.ads-mobile {
+    display: inline-block;
+    width: 300px;
+    height: 261px;
+}
+
+.ads-mobile-title {
+    display: block;
+    text-align: right;
+    color: #999;
+    font-size: 1rem;
+}

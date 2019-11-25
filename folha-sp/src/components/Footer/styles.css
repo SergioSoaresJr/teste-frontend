@@ -1,0 +1,90 @@
+/* Display celular */
+@media screen and (max-width: 739px) {
+    .logo-img {
+        display: none;
+    }
+
+    .footer {
+        display: table;
+        padding: 20px 12px;
+        text-align: justify;
+        font-size: 1rem;
+    }
+}
+
+/* Display tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .logo-img {
+        display: table-cell;
+        margin: 0 2rem;
+    }
+
+    .footer {
+        display: table;
+        width: 100%;
+        padding: 20px 0;
+    
+    }
+
+    .text {
+        text-align: left;
+        display: table-cell;
+        padding: 0 1rem;
+    }
+}
+
+/* Display desktop HD */
+@media screen and (min-width: 1024px) and (max-width: 1679px) {
+    .logo-img {
+        display: table-cell;
+        margin: 0 0 0 8em;
+    }
+
+    .footer {
+        display: table;
+        font-size: 1rem;
+        padding: 20px 12px;
+        width: auto;
+    }
+
+    .text {
+        text-align: left;
+        display: table-cell;
+        padding:0 10em;
+    }
+}
+
+/* adpatação para monitores Full HD */
+@media screen and (min-width: 1680px) {
+    .logo-img {
+        display: table-cell;
+        margin: 0 0 0 8em;
+    }
+
+    .footer {
+        display: table;
+        font-size: 1rem;
+        padding: 20px 12px;
+        width: auto;
+    }
+
+    .text {
+        text-align: left;
+        display: table-cell;
+        padding:0 10em;
+        font-size: 1.2rem;
+    }
+}
+
+/* Configurações Gerais */
+.footer {
+   
+    background-color: #2C3E50;
+}
+
+.text {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    color: #EBEFF0;
+}

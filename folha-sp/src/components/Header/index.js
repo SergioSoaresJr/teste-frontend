@@ -7,7 +7,7 @@ import './styles.css';
 
 function Header() {
     return (
-        <header className="main-header"> 
+        <header id="header" className="main-header"> 
                 <img className="icon-menu" src={Icon} alt="Menu"/>
                 
                 <img className="logo-menu" src={Logo} alt="Folha"/>
